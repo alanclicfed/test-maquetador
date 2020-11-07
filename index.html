@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test maquetador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container main">
+        <!-- Categorías / Categories -->
+        <section class="row categories mt-4">
+            <a class="col-3 categories__category" href="#">
+                <img src="imgs/banners-14.jpg" alt="Decks de PVC." width="100%">
+            </a>
+            <a class="col-3 offset-1 categories__category" href="#">
+                <img src="imgs/banners-13.jpg" alt="Decks de PVC." width="100%">
+            </a>
+            <a class="col-3 offset-1 categories__category" href="#">
+                <img src="imgs/banners-12.jpg" alt="Decks de PVC." width="100%">
+            </a>
+        </section>
+
+        <!-- Productos / Products -->
+        <section class="products">
+            <div class="row products__discount d-flex justify-content-center">
+                <p class="products__discount__text">
+                    CONSTRUCCIÓN EN SECO <span class="text-medium">HASTA 50% OFF</span>
+                </p>
+            </div>
+            <div class="row mt-3">
+                <a class="products__aside col-3" href="#">
+                    <img src="imgs/imagen-aside.jpg" alt="Perfilplas." width="100%">
+                </a>
+                <div class="products__list d-flex flex-row col-9">
+                    <div class="products__list__item col-3">
+                        <img class="products__list__item--highlighted" src="imgs/imagen-destacado.png" alt="Producto destacado." />
+                        <img class="pt-3" src="imgs/producto.jpg" alt="Perfil construcción." width="100%">
+                        <div class="products__list__item__text">
+                            <p class="products__list__item__description">
+                                PERFIL CONSTRUCCIÓN SECO MONTANTE 34 GALVANIZADO 0.52MM x 34M...
+                            </p>
+                            <p class="products__list__item__cost text-medium">$0,00 
+                                <span class="products__list__item__cost__iva">+ IVA</span>
+                            </p>
+                            <p class="products__list__item__total">$0,00 (IVA included)</p>
+                        </div>
+                        <form class="products__list__item__form" action="">
+                            <div class="products__list__item__form__quantity">
+                                <label class="products__list__item__form__quantity__label" for="quantity">Cant.</label>
+                                <input class="products__list__item__form__range" name="quantity" type="text" placeholder="1">
+                            </div>
+                            <button class="products__list__item__form__submit">
+                                AGREGAR AL PRESUPUESTO
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="products__list__item col-3">
+                        <img class="products__list__item--highlighted" src="imgs/imagen-destacado.png" alt="Producto destacado." />
+                        <img class="pt-3" src="imgs/producto.jpg" alt="Perfil construcción." width="100%">
+                        <div class="products__list__item__text">
+                            <p class="products__list__item__description">
+                                PERFIL CONSTRUCCIÓN SECO MONTANTE 69 GALVANIZADO MOLETEADO..
+                            </p>
+                            <p class="products__list__item__cost text-medium">$0,00 
+                                <span class="products__list__item__cost__iva">+ IVA</span>
+                            </p>
+                            <p class="products__list__item__total">$0,00 (IVA included)</p>
+                        </div>
+                        <form class="products__list__item__form" action="">
+                            <div class="products__list__item__form__quantity">
+                                <label class="products__list__item__form__quantity__label" for="quantity">Cant.</label>
+                                <input class="products__list__item__form__range" name="quantity" type="text" placeholder="1">
+                            </div>
+                            <button class="products__list__item__form__submit">
+                                AGREGAR AL PRESUPUESTO
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="products__list__item col-3">
+                        <img class="products__list__item--highlighted" src="imgs/imagen-destacado.png" alt="Producto destacado." />
+                        <img class="pt-3" src="imgs/producto.jpg" alt="Perfil construcción." width="100%">
+                        <div class="products__list__item__text">
+                            <p class="products__list__item__description">
+                                PERFIL CONSTRUCCION SECO SOLERA 35 GALVANIZADO MOLETEADO 0.52M...
+                            </p>
+                            <p class="products__list__item__cost text-medium">$0,00 
+                                <span class="products__list__item__cost__iva">+ IVA</span>
+                            </p>
+                            <p class="products__list__item__total">$0,00 (IVA included)</p>
+                        </div>
+                        <form class="products__list__item__form" action="">
+                            <div class="products__list__item__form__quantity">
+                                <label class="products__list__item__form__quantity__label" for="quantity">Cant.</label>
+                                <input class="products__list__item__form__range" name="quantity" type="text" placeholder="1">
+                            </div>
+                            <button class="products__list__item__form__submit">
+                                AGREGAR AL PRESUPUESTO
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="products__list__item col-3">
+                        <img class="products__list__item--highlighted" src="imgs/imagen-destacado.png" alt="Producto destacado." />
+                        <img class="pt-3" src="imgs/producto.jpg" alt="Perfil construcción." width="100%">
+                        <div class="products__list__item__text">
+                            <p class="products__list__item__description">
+                                PERFIL CONSTRUCCION SECO SOLERA 70 GALVANIZADO MOLETEADO 0.52M...
+                            </p>
+                            <p class="products__list__item__cost text-medium">$0,00 
+                                <span class="products__list__item__cost__iva">+ IVA</span>
+                            </p>
+                            <p class="products__list__item__total">$0,00 (IVA included)</p>
+                        </div>
+                        <form class="products__list__item__form" action="">
+                            <div class="products__list__item__form__quantity">
+                                <label class="products__list__item__form__quantity__label" for="quantity">Cant.</label>
+                                <input class="products__list__item__form__range" name="quantity" type="text" placeholder="1">
+                            </div>
+                            <button class="products__list__item__form__submit">
+                                AGREGAR AL PRESUPUESTO
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

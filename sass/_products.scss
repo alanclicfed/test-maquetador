@@ -1,0 +1,119 @@
+.products {
+    position: relative;
+
+    margin-top: 7rem;
+
+    &__discount {
+        &__text {
+            background: $yellow;
+            padding: 0.25rem 3.75rem;
+            padding-bottom: 0.5rem;
+        }
+    }
+
+    &__list {
+        &__item {
+            transition: box-shadow 0.5s ease-in-out;
+
+            &--highlighted {
+                width: 5.5rem;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+
+            &__text {
+                cursor: default;
+                position: relative;
+                margin-top: -0.9rem;
+                padding-top: 3rem;
+                background: #fff;
+                text-align: center;
+                font-size: 0.8rem;
+            }
+
+            &__cost {
+                position: relative;
+                font-size: 1rem;
+                margin-top: -1.05rem;
+
+                &__iva {
+                    font-size: 0.65rem;
+                }
+            }
+
+            &__total {
+                margin-top: -0.9rem;
+                font-size: 0.6rem;
+            }
+
+            &:hover, &:focus-within {
+                box-shadow: 0 0 0.9375rem -0.1875rem rgba($color: #000, $alpha: 0.2);
+
+                .products__list__item__form {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+
+            &__form {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                margin-bottom: 0.5rem;
+                padding: 0 0.5rem;
+                opacity: 0;
+                visibility: hidden;
+    
+                transition: 0.5s ease-in-out;
+    
+                &__quantity {
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                
+                    &__label {
+                        position: absolute;
+                        top: 50%;
+                        transform: translate(0, -50%);
+                        margin-top: -0.3rem;
+                        left: 1rem;
+                        color: #959595;
+                        font-size: 0.8rem;
+                    }
+                }
+    
+                &__range {
+                    width: 90%;
+                    text-align: right;
+                    border: 1px solid #959595;
+                    color: #111;
+                    outline: none;
+                    padding: 0.5rem;
+                    border-radius: 0.18rem;
+                    margin-bottom: 0.5rem;
+    
+                    &:hover {
+                        outline: none;
+                    }
+    
+                    &::placeholder {
+                        color: #111;
+                    }
+                }
+    
+    
+                &__submit {
+                    color: #fff;
+                    border: none;
+                    background: $red;
+                    font-size: 0.8rem;
+                    border-radius: 0.18rem;
+                    padding: 0.2rem 0;
+                }
+            }
+        }
+    }
+}
