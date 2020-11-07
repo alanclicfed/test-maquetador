@@ -20,6 +20,7 @@ Repositorio que contiene un **test** para una posición como **maquetador front-
 - [x] Se extrajeron de las imágenes provistas, las imágenes faltantes. No se extrajo la imagen de uno de los productos, se utilizó unicamente la provista.
 - [x] Se utilizó una imagen estática para el cartel de los productos destacados, aunque hubiese sido mejor utilizar una imágen vectorial.
 - [x] Se envolvieron las imágenes de las "categorías" en links, como así también la del ECO PVC.
+- [x] No se contemplo el diseño responsive, apilar los productos o cambiar las columnas ocupadas dependiendo el tamaño del viewport (col-sm-12 o col-sm-6 para generar una grilla de mx2, o utilizando porcentajes en el caso de no utilizar bootstrap o alguna otra librería como materialize).
 
 
 ###### Muchas gracias por la oportunidad :smiley:
